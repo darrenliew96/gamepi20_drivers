@@ -8,7 +8,8 @@ or by editing `/boot/config.txt` and add the following line `dtparam=spi=on`
 
 ## TFT Drivers / Device Tree Overlay Source (DTS) for GamePi20
  
-NOTE:The old modules method doesnt work on linux kernel 5.4. The device tree overlay for gamepi20 tft is updated for linux kernel 5.4, 
+NOTE:The old modules method doesnt work on linux kernel 5.4. So device tree overlay is required to enable gamepi20 tft
+The device tree overlay for gamepi20 tft is updated for linux kernel 5.4, 
 
 Compile ST7789V GamePi TFT device tree overlay source with this command:
 ```
