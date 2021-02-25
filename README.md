@@ -106,3 +106,7 @@ sudo reboot
 Finally after the reboot setup the controller via the initial input configuration.
 
 Short press the button to save input, Long press a button to skip
+
+## Troubleshoot if there is no sound
+
+Be sure to change the audio device to PCM in `Main Menu > Sound Settings` in RetroPie as alsamixer is slowly depreciated
