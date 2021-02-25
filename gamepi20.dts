@@ -50,10 +50,10 @@
                                 height = <320>;
 								fps = <60>;
                                 buswidth = <8>;
-								/*spi-cpol;
-                                spi-cpha;*/
+								spi-cpol;
+                                spi-cpha;
 								custom = <1>;
-								bgr = <0>;
+								bgr;
 								
                                 reset-gpios = <&gpio 27 1>;
 								dc-gpios = <&gpio 25 0>;
@@ -72,7 +72,7 @@
 										0x10000b2 0x0c 0x0c 0x00 0x33 0x33
 										0x10000b7 0x35
 										0x10000bb 0x1f
-										0x10000c0 0x2c
+										0x10000c0 0x0c
 										0x10000c2 0x01
 										0x10000c3 0x12
 										0x10000c4 0x20
