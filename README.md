@@ -1,5 +1,5 @@
 # GamePi20 Drivers for Linux Kernel 5.4 and Above
-For RetroPie 4.7 and Raspbian Buster and above
+### Note: Tested For RetroPie 4.7 and Raspbian Buster and above, may not work with old distro
 
 First, enable the SPI interface by using `sudo raspi-config` and go to `Interface Options > SPI`
 
