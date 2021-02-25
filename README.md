@@ -84,9 +84,12 @@ hdmi_cvt=640 480 60 1 0 0 0
 hdmi_group=2
 hdmi_mode=1
 hdmi_mode=87
-dtoverlay=pwm
+audio_pwm_mode=2
+dtoverlay=audremap,pins_18_19
+
 ```
-- `dtoverlay=pwm` sets the Audio output via the PWM GPIO pin 12 `GPIO=18 (PWM CLK)`
+- `dtoverlay=audremap,pins_18_19` sets the Audio output via the PWM GPIO pin 12 `GPIO=18 (PWM CLK)`
+- `audio_pwm_mode=2` enable better PWM output
 
 Then `sudo reboot` and the TFT should show up the same image as HDMI output
 
